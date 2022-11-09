@@ -11,8 +11,8 @@ using MigrationBundleConsoleAppExample.Context;
 namespace MigrationBundleConsoleAppExample.Migrations
 {
     [DbContext(typeof(DatContext))]
-    [Migration("20221108071310_third")]
-    partial class third
+    [Migration("20221108071310_Third")]
+    partial class Third
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

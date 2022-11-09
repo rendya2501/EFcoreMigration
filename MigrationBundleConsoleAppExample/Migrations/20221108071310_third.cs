@@ -4,7 +4,7 @@
 
 namespace MigrationBundleConsoleAppExample.Migrations
 {
-    public partial class third : Migration
+    public partial class Third : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
