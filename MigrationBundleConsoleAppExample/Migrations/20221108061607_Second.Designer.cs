@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MigrationBundleExample.Context;
+using MigrationBundleConsoleAppExample.Context;
 
 #nullable disable
 
-namespace MigrationBundleExample.Migrations
+namespace MigrationBundleConsoleAppExample.Migrations
 {
     [DbContext(typeof(DatContext))]
     [Migration("20221108061607_Second")]
@@ -23,7 +23,7 @@ namespace MigrationBundleExample.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("MigrationBundleExample.Models.Person", b =>
+            modelBuilder.Entity("MigrationBundleConsoleAppExample.Models.Person", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace MigrationBundleExample.Migrations
+namespace MigrationBundleConsoleAppExample.Migrations
 {
     public partial class third : Migration
     {
